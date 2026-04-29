@@ -66,4 +66,5 @@ Prefix: "&a[Staff] &r"
 ## Requirements
 
 - Java 17+
-- The Latest Version of Velocity
+- The Latest PaperMC Velocity Version
+- At least two backend servers are needed for full functionality
