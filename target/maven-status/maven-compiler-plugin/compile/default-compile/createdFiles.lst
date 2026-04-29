@@ -1,0 +1,4 @@
+velocity-plugin.json
+me\adzel\velocitychat\StaffChatCommand.class
+me\adzel\velocitychat\ConfigManager.class
+me\adzel\velocitychat\VelocityChatPlugin.class
