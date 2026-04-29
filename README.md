@@ -1,6 +1,6 @@
 # VelocityChat
 
-Simple, lightweight **staff chat toggle** plugin for **Velocity** networks.
+Simple, lightweight staff chat toggle plugin for Velocity networks.
 
 VelocityChat lets staff members quickly enter a private staff-chat mode using `/sc`, talk to other staff across the proxy, and toggle back to normal chat when done.
 
@@ -10,7 +10,6 @@ VelocityChat lets staff members quickly enter a private staff-chat mode using `/
 - Staff messages are delivered to all online players with staff-chat permission
 - Messages are formatted with a configurable prefix
 - Clean default config that is easy to customize
-- Built for Velocity with Maven
 
 ## Command
 
@@ -31,13 +30,12 @@ VelocityChat lets staff members quickly enter a private staff-chat mode using `/
 - Running `/sc` again disables staff chat mode and restores normal chat behavior.
 - Staff chat is always visible to players with `velocitychat.sc`, regardless of whether they currently have mode enabled.
 
-## Installation
+## Install on Velocity Server
 
-1. Build the plugin:
-   - `mvn package`
-2. Copy the generated JAR from `target/velocitychat-0.1.jar` into your Velocity `plugins` folder.
-3. Start or restart the proxy.
-4. Edit the generated config file if needed:
+1. Download or obtain `velocitychat-0.1.jar`.
+2. Place the JAR in your Velocity proxy `plugins` folder.
+3. Start or restart your Velocity proxy.
+4. Open the generated config file if you want to customize the prefix:
    - `plugins/velocitychat/config.yml`
 
 ## Configuration
@@ -69,9 +67,3 @@ Prefix: "&a[Staff] &r"
 
 - Java 17+
 - Velocity proxy
-
-## Project Info
-
-- **Author:** Adzel
-- **Version:** 0.1
-- **Build Tool:** Maven
