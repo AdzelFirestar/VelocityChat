@@ -32,10 +32,10 @@ VelocityChat lets staff members quickly enter a private staff-chat mode using `/
 
 ## Install on Velocity Server
 
-1. Download or obtain `velocitychat-0.1.jar`.
-2. Place the JAR in your Velocity proxy `plugins` folder.
-3. Start or restart your Velocity proxy.
-4. Open the generated config file if you want to customize the prefix:
+1. Download VelocityChat from our releases tab.
+2. Place the JAR in your Velocity Network's `plugins` folder.
+3. Restart your Velocity proxy.
+4. (Optional) Open the generated config file if you want to customize the prefix:
    - `plugins/velocitychat/config.yml`
 
 ## Configuration
@@ -66,4 +66,4 @@ Prefix: "&a[Staff] &r"
 ## Requirements
 
 - Java 17+
-- Velocity proxy
+- The Latest Version of Velocity
